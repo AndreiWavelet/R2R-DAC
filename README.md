@@ -26,6 +26,7 @@ R2R_DAC::SetBitPin(bit, pin);
 You must register every pin you use. Bit 0 is the LSb.
 
 Example for a 6 bit DAC at Arduino pins 3 (LSb), 4, 6, 9, 10, 13 (MSb):
+
 my_dac.SetBitPin(0, 3);
 my_dac.SetBitPin(1, 4);
 my_dac.SetBitPin(2, 6);
