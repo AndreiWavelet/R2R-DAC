@@ -28,11 +28,17 @@ You must register every pin you use. Bit 0 is the LSb.
 Example for a 6 bit DAC at Arduino pins 3 (LSb), 4, 6, 9, 10, 13 (MSb):
 
 my_dac.SetBitPin(0, 3);
+
 my_dac.SetBitPin(1, 4);
+
 my_dac.SetBitPin(2, 6);
+
 my_dac.SetBitPin(3, 9);
+
 my_dac.SetBitPin(4, 10);
+
 my_dac.SetBitPin(5, 13);
+
 
 ### 3. Set output value:
 
